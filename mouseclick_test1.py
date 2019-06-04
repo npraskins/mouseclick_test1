@@ -25,8 +25,8 @@ commandQueue = []
 affirm = ["yes", "yeah", "yep", "hm"]
 
 
-def getGui():
-    return gui
+#def getGui():
+#    return gui
 
 
 def GetContinuousText(audio):

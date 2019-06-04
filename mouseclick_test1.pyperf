@@ -4,10 +4,5 @@
     <TargetProject>32220125-a288-4d31-9ea0-8cd2498404b3</TargetProject>
     <FriendlyName>mouseclick_test1</FriendlyName>
   </ProjectTarget>
-  <Reports>
-    <Report>
-      <Filename>C:\Users\curio\AppData\Local\Temp\mouseclick_test1_20190529.vsp</Filename>
-    </Report>
-  </Reports>
   <UseVTune>false</UseVTune>
 </ProfilingTarget>

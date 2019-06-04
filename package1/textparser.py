@@ -1,4 +1,5 @@
-from package1 import webhandler,GUI
+from package1 import webhandler
+from package1.GUI import GUI
 
 
 # parses the input test and determines a valid command

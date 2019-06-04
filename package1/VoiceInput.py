@@ -8,7 +8,7 @@ from package1 import textparser
 from package1 import webhandler
 import sys
 sys.path.insert(0, '../')
-import package1.GUI as GUI
+from package1.GUI import GUI
 
 
 def GetVoice():
@@ -33,7 +33,8 @@ def GetText(audio):
 
         text = ""
 
-        text = r.recognize_google(audio)
+#        text = r.recognize_google(audio)
+        text = r.recognize_google_cloud(audio)
         if text != "":
             GUI.UpdateGuiSpeed(True)
 #-------------------------------------------------------------------------
